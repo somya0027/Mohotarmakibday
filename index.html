@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Memory Museum</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<button id="playAudioButton">
+    ▶ Play Audio
+</button>
+
+<button id="lanternButton">
+    🏮 Every wish deserves the sky, send my wish
+</button>
+
+<button id="cakeButton">
+🎂 Make a Wish
+</button>
+
+<button id="playAudioButton">
+    ▶ Play Message
+</button>
+
+<body>
+
+    <canvas id="game"></canvas>
+    <div id="joystick"></div>
+
+<script type="importmap">
+{
+        "imports": {
+            "three": "https://unpkg.com/three@0.180.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.180.0/examples/jsm/"
+        }
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/nipplejs/0.10.1/nipplejs.min.js"></script>
+    <script type="module" src="script.js"></script>
+
+    <button id="letterButton">
+    💌 Open My Letter
+</button>
+
+<div id="letterOverlay">
+
+    <div id="letter">
+
+        <button id="closeLetter">✕</button>
+
+        <h1>To My Bonsai ❤️</h1>
+
+        <p>
+            (We'll write your letter here later.)
+        </p>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
