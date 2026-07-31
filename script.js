@@ -19,7 +19,7 @@ ctx.font = "bold 64px Georgia";
 ctx.textAlign = "center";
 
 ctx.fillText("HAPPY BIRTHDAAYYY", 512, 120);
-ctx.fillText("BAAAAAAAANNNNNNNNNIIIIIIIIIII", 512, 210);
+ctx.fillText("BAAANNNNIIII", 512, 210);
 
 const textTexture = new THREE.CanvasTexture(canvas);
 
